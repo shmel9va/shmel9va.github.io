@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Шмелева Мария — ML-инженер</title>
+    <style>
+        /* Базовые настройки в стиле casualdoto */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            background-color: #ffffff;
+            color: #24292f; /* Темно-серый, почти черный */
+            line-height: 1.6;
+            margin: 0;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 0 auto;
+        }
+
+        /* Заголовки */
+        h1 {
+            font-size: 32px;
+            font-weight: 600;
+            border-bottom: 1px solid #d0d7de;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 24px;
+            font-weight: 600;
+            border-bottom: 1px solid #d0d7de;
+            padding-bottom: 8px;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            font-size: 20px;
+            font-weight: 600;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        /* Текст и списки */
+        p {
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            margin-top: 0;
+            margin-bottom: 20px;
+            padding-left: 24px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        b, strong {
+            font-weight: 600;
+            color: #000;
+        }
+
+        /* Ссылки */
+        a {
+            color: #0969da;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Блок с контактами в шапке */
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            font-size: 15px;
+            color: #57606a;
+            margin-bottom: 30px;
+        }
+
+        /* Стили для изображений (если добавите скриншоты) */
+        .img-container {
+            margin: 30px 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .img-box {
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            max-width: 100%;
+        }
+
+        .img-box img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .img-caption {
+            background-color: #f8f8f8;
+            padding: 12px;
+            text-align: center;
+            font-style: italic;
+            font-size: 14px;
+            color: #57606a;
+            margin: 0;
+            border-top: 1px solid #eaeef2;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Шмелева Мария Максимовна</h1>
+    <div class="contact-info">
+        <span><b>Должность:</b> ML-инженер</span>
+        <span><b>Город:</b> Санкт-Петербург</span>
+        <span><b>Телефон:</b> +7 (904) 555-78-39</span>
+        <span><b>Email:</b> shmel9va@yandex.ru</span>
+        <span><b>Telegram:</b> @aeeaeayu</span>
+    </div>
+
+    <h2>Обо мне</h2>
+    <p>Развиваюсь в направлении ML Engineering и LLM/Prompt Engineering. Есть практический опыт разработки ML-пайплайнов, интеграции LLM в продуктовые процессы, настройки промптов, оценки качества моделей и анализа ошибок.</p>
+    <p>Имею сильный backend-бэкграунд: Python, FastAPI, Flask, PostgreSQL, Redis, Kafka, Docker, REST API и микросервисная архитектура. Есть опыт развёртывания LLM и backend-сервисов на сервере и интеграции моделей в приложения. Люблю задачи на стыке разработки, ML и продукта.</p>
+
+    <h2>Опыт работы</h2>
+
+    <h3>Яндекс — Менеджер по качеству ML</h3>
+    <p><i>Ноябрь 2025 — настоящее время (Москва)</i></p>
+    <ul>
+        <li>Автоматизировала процессы международной поддержки Яндекс Такси: разрабатывала ML-пайплайны обработки сообщений на Python, интегрировала внутренние сервисы и модели через REST API.</li>
+        <li>Реализовала комбинированную модель определения языка текста для 21 страны с Macro F1 > 90% (на основе проекта подготовлена дипломная работа).</li>
+        <li>С нуля разработала, протестировала и поддерживала проект контекстных ML-саджетов для чата водителя и пассажира.</li>
+        <li>Интегрировала LLM в продуктовые пайплайны: разрабатывала и оптимизировала промпты, формировала контекст и структурированный output модели.</li>
+        <li>Проводила ML/LLM-эксперименты, оценку качества, анализ ошибок и исследование подходов для улучшения автоматизации поддержки.</li>
+    </ul>
+
+    <h3>TE-Manager — Backend-разработчик</h3>
+    <p><i>Февраль 2024 — настоящее время</i></p>
+    <ul>
+        <li>Разрабатывала TE-Manager — Android-приложение, которое за 6 месяцев прошло путь от учебного проекта до MVP и было опубликовано в RuStore.</li>
+        <li>Разрабатывала backend-часть приложения: проектировала REST API, реализовывала бизнес-логику и клиент-серверное взаимодействие на Python (Flask, FastAPI), Java и PostgreSQL.</li>
+        <li>Работала с Docker, Redis, миграциями и развёртыванием сервисов в облачной инфраструктуре.</li>
+        <li>Интегрировала готовую LLM в приложение и самостоятельно развернула модель на сервере, настроив её взаимодействие с backend-сервисами.</li>
+        <li>Работала с подходами микросервисной архитектуры, взаимодействием сервисов через HTTP/Kafka и авторизацией с использованием JWT.</li>
+        <li>Проект получил грант 1 млн руб. в конкурсе «Студенческий стартап».</li>
+    </ul>
+
+    <h2>Образование</h2>
+    <ul>
+        <li><b>НИУ ВШЭ (Санкт-Петербург)</b> — Магистр, Школа информатики, физики и технологий. Машинное обучение и анализ данных (2026 — 2028)</li>
+        <li><b>СПбПУ Петра Великого</b> — Бакалавр, Институт компьютерных наук и кибербезопасности. Математическое обеспечение и администрирование информационных систем (2022 — 2026)</li>
+    </ul>
+
+    <h2>Навыки и технологии</h2>
+    <ul>
+        <li><b>Языки программирования:</b> Python, Java, SQL, R</li>
+        <li><b>Backend и базы данных:</b> FastAPI, Flask, PostgreSQL, Redis, Apache Kafka, REST API, Git, Docker, Docker-compose</li>
+        <li><b>ML и Data Science:</b> PyTorch, TensorFlow, OpenCV, Pandas, LLM, Prompt Engineering, ML-пайплайны, Математическая статистика</li>
+        <li><b>Языки:</b> Русский (родной), Английский (B2, TOEFL IBT)</li>
+    </ul>
+
+    <h2>Курсы и сертификаты</h2>
+    <ul>
+        <li>Математика для машинного обучения (Imperial College London, Coursera)</li>
+        <li>Алгоритмы и структуры данных (VK Education)</li>
+        <li>Введение в машинное обучение (Открытое образование)</li>
+        <li>Тренировки по ML (Яндекс)</li>
+        <li>Олимпиада IT Планета по СУБД PostgreSQL</li>
+    </ul>
+
+</div>
+
+</body>
+</html>
